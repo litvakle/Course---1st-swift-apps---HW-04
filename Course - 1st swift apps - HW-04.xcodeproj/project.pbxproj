@@ -11,9 +11,16 @@
 		3A03665823EE774E00945654 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A03665723EE774E00945654 /* SceneDelegate.swift */; };
 		3A03665A23EE774E00945654 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A03665923EE774E00945654 /* ViewController.swift */; };
 		3A03665D23EE774E00945654 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A03665B23EE774E00945654 /* Main.storyboard */; };
-		3A03666023EE774E00945654 /* Course___1st_swift_apps___HW_04.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A03665E23EE774E00945654 /* Course___1st_swift_apps___HW_04.xcdatamodeld */; };
 		3A03666223EE775000945654 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A03666123EE775000945654 /* Assets.xcassets */; };
 		3A03666523EE775000945654 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A03666323EE775000945654 /* LaunchScreen.storyboard */; };
+		3A03666D23EE7DEF00945654 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A03666C23EE7DEF00945654 /* User.swift */; };
+		3A03666F23EEA3E900945654 /* WellcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A03666E23EEA3E900945654 /* WellcomeViewController.swift */; };
+		3A03667523EEC07200945654 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A03667423EEC07200945654 /* Data.swift */; };
+		3A03667723EECC4800945654 /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A03667623EECC4800945654 /* QuestionsViewController.swift */; };
+		3A03667923EED65C00945654 /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A03667823EED65C00945654 /* AboutMeViewController.swift */; };
+		3A03667B23EEEB9C00945654 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A03667A23EEEB9C00945654 /* Users.swift */; };
+		3A5A24AF23EEF15D00CB1961 /* RegisterNewUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5A24AE23EEF15D00CB1961 /* RegisterNewUserViewController.swift */; };
+		3A5A24B123EEF93900CB1961 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5A24B023EEF93900CB1961 /* UIViewControllerExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +29,17 @@
 		3A03665723EE774E00945654 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3A03665923EE774E00945654 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3A03665C23EE774E00945654 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3A03665F23EE774E00945654 /* Course___1st_swift_apps___HW_04.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Course___1st_swift_apps___HW_04.xcdatamodel"; sourceTree = "<group>"; };
 		3A03666123EE775000945654 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A03666423EE775000945654 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A03666623EE775000945654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A03666C23EE7DEF00945654 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3A03666E23EEA3E900945654 /* WellcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellcomeViewController.swift; sourceTree = "<group>"; };
+		3A03667423EEC07200945654 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		3A03667623EECC4800945654 /* QuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
+		3A03667823EED65C00945654 /* AboutMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeViewController.swift; sourceTree = "<group>"; };
+		3A03667A23EEEB9C00945654 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		3A5A24AE23EEF15D00CB1961 /* RegisterNewUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterNewUserViewController.swift; sourceTree = "<group>"; };
+		3A5A24B023EEF93900CB1961 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +72,55 @@
 		3A03665423EE774E00945654 /* Course - 1st swift apps - HW-04 */ = {
 			isa = PBXGroup;
 			children = (
-				3A03665523EE774E00945654 /* AppDelegate.swift */,
-				3A03665723EE774E00945654 /* SceneDelegate.swift */,
-				3A03665923EE774E00945654 /* ViewController.swift */,
-				3A03665B23EE774E00945654 /* Main.storyboard */,
-				3A03666123EE775000945654 /* Assets.xcassets */,
-				3A03666323EE775000945654 /* LaunchScreen.storyboard */,
-				3A03666623EE775000945654 /* Info.plist */,
-				3A03665E23EE774E00945654 /* Course___1st_swift_apps___HW_04.xcdatamodeld */,
+				3A03667323EEBE1500945654 /* SupportingFiles */,
+				3A03667023EEBDA300945654 /* ViewControllers */,
+				3A03667123EEBDB700945654 /* Models */,
+				3A03667223EEBDF700945654 /* Views */,
 			);
 			path = "Course - 1st swift apps - HW-04";
+			sourceTree = "<group>";
+		};
+		3A03667023EEBDA300945654 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3A03665923EE774E00945654 /* ViewController.swift */,
+				3A03667623EECC4800945654 /* QuestionsViewController.swift */,
+				3A03666E23EEA3E900945654 /* WellcomeViewController.swift */,
+				3A5A24AE23EEF15D00CB1961 /* RegisterNewUserViewController.swift */,
+				3A03667823EED65C00945654 /* AboutMeViewController.swift */,
+				3A5A24B023EEF93900CB1961 /* UIViewControllerExtensions.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3A03667123EEBDB700945654 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3A03666C23EE7DEF00945654 /* User.swift */,
+				3A03667A23EEEB9C00945654 /* Users.swift */,
+				3A03667423EEC07200945654 /* Data.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3A03667223EEBDF700945654 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3A03665B23EE774E00945654 /* Main.storyboard */,
+				3A03666323EE775000945654 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3A03667323EEBE1500945654 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				3A03665523EE774E00945654 /* AppDelegate.swift */,
+				3A03665723EE774E00945654 /* SceneDelegate.swift */,
+				3A03666623EE775000945654 /* Info.plist */,
+				3A03666123EE775000945654 /* Assets.xcassets */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +194,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A03666023EE774E00945654 /* Course___1st_swift_apps___HW_04.xcdatamodeld in Sources */,
 				3A03665A23EE774E00945654 /* ViewController.swift in Sources */,
+				3A5A24B123EEF93900CB1961 /* UIViewControllerExtensions.swift in Sources */,
+				3A5A24AF23EEF15D00CB1961 /* RegisterNewUserViewController.swift in Sources */,
+				3A03667B23EEEB9C00945654 /* Users.swift in Sources */,
+				3A03667723EECC4800945654 /* QuestionsViewController.swift in Sources */,
+				3A03667923EED65C00945654 /* AboutMeViewController.swift in Sources */,
+				3A03667523EEC07200945654 /* Data.swift in Sources */,
 				3A03665623EE774E00945654 /* AppDelegate.swift in Sources */,
+				3A03666D23EE7DEF00945654 /* User.swift in Sources */,
+				3A03666F23EEA3E900945654 /* WellcomeViewController.swift in Sources */,
 				3A03665823EE774E00945654 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,7 +350,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 836WWF38RW;
-				INFOPLIST_FILE = "Course - 1st swift apps - HW-04/Info.plist";
+				INFOPLIST_FILE = "Course - 1st swift apps - HW-04/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +368,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 836WWF38RW;
-				INFOPLIST_FILE = "Course - 1st swift apps - HW-04/Info.plist";
+				INFOPLIST_FILE = "Course - 1st swift apps - HW-04/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -342,19 +402,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		3A03665E23EE774E00945654 /* Course___1st_swift_apps___HW_04.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				3A03665F23EE774E00945654 /* Course___1st_swift_apps___HW_04.xcdatamodel */,
-			);
-			currentVersion = 3A03665F23EE774E00945654 /* Course___1st_swift_apps___HW_04.xcdatamodel */;
-			path = "Course___1st_swift_apps___HW_04.xcdatamodeld";
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 3A03664A23EE774E00945654 /* Project object */;
 }
