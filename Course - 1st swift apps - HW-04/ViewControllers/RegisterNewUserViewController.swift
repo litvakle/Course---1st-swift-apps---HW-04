@@ -22,10 +22,6 @@ class RegisterNewUserViewController: UIViewController {
         passwordTextField.delegate = self
     }
     
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        view.endEditing(true)
-    }
-    
     //MARK: IBActions
     @IBAction func registerNiewUserButtonPressed() {
         guard let username = usernameTextField.text else { return }

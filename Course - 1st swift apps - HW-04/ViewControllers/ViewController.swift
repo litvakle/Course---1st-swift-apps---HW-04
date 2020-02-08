@@ -25,10 +25,6 @@ class ViewController: UIViewController {
         passwordTextField.delegate = self
     }
 
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        view.endEditing(true)
-    }
-    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let tbvc = segue.destination as? UITabBarController else { return }
         guard let wvc = tbvc.viewControllers?.first as? WellcomeViewController else { return }
@@ -76,6 +72,3 @@ class ViewController: UIViewController {
         passwordTextField.text = ""
     }
 }
-
-// MARK: ViewController
-

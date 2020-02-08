@@ -6,7 +6,7 @@
 //  Copyright © 2020 Lev Litvak. All rights reserved.
 //
 
-class User {
+struct User {
     
     private(set) var username: String
     private(set) var password: String

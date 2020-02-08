@@ -8,7 +8,9 @@
 
 import UIKit
 
+// MARK: UIViewController
 extension UIViewController: UITextFieldDelegate {
+    
     func showAlert(title: String, message: String, dismissNeeded: Bool = false) {
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
         let ok = UIAlertAction(title: "OK", style: .default) { _ in
@@ -23,5 +25,9 @@ extension UIViewController: UITextFieldDelegate {
     public func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
         return true
+    }
+    
+    override open func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
     }
 }
