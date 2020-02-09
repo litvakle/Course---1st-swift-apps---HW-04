@@ -9,14 +9,14 @@
 import UIKit
 
 class AboutMeViewController: UIViewController {
-
+    
     // MARK: IBOutlets
     @IBOutlet weak var aboutMeTextView: UITextView!
     
     // MARK: Override functions
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         aboutMeTextView.text = Data.shared.aboutMeText
     }
 }

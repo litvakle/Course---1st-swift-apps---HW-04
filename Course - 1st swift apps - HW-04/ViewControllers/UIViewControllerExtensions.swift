@@ -8,7 +8,7 @@
 
 import UIKit
 
-// MARK: UIViewController
+// MARK: UIViewController extentions
 extension UIViewController: UITextFieldDelegate {
     
     func showAlert(title: String, message: String, dismissNeeded: Bool = false) {

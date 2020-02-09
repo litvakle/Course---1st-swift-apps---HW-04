@@ -6,6 +6,7 @@
 //  Copyright © 2020 Lev Litvak. All rights reserved.
 //
 
+// used Singletone pattern
 final class Users {
     
     static var shared = Users()
@@ -20,6 +21,9 @@ final class Users {
         }
         
         return result
+    }
+    
+    private init() {
     }
     
     func registerNewUser(username: String, password: String) -> (result: Bool, info: String) {
@@ -44,7 +48,7 @@ final class Users {
         return users.contains(where: { $0.username == username && $0.password == password} )
     }
     
-    func getPassword(username: String) -> String? {
+    func getPassword(for username: String) -> String? {
         guard let user = users.first(where: { $0.username == username } ) else { return nil }
 
         return user.password

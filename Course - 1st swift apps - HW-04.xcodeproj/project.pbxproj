@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3A03665623EE774E00945654 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A03665523EE774E00945654 /* AppDelegate.swift */; };
 		3A03665823EE774E00945654 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A03665723EE774E00945654 /* SceneDelegate.swift */; };
-		3A03665A23EE774E00945654 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A03665923EE774E00945654 /* ViewController.swift */; };
 		3A03665D23EE774E00945654 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A03665B23EE774E00945654 /* Main.storyboard */; };
 		3A03666223EE775000945654 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A03666123EE775000945654 /* Assets.xcassets */; };
 		3A03666523EE775000945654 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A03666323EE775000945654 /* LaunchScreen.storyboard */; };
@@ -21,13 +20,13 @@
 		3A03667B23EEEB9C00945654 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A03667A23EEEB9C00945654 /* Users.swift */; };
 		3A5A24AF23EEF15D00CB1961 /* RegisterNewUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5A24AE23EEF15D00CB1961 /* RegisterNewUserViewController.swift */; };
 		3A5A24B123EEF93900CB1961 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5A24B023EEF93900CB1961 /* UIViewControllerExtensions.swift */; };
+		3A5A24B323EFD43600CB1961 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5A24B223EFD43600CB1961 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3A03665223EE774E00945654 /* Course - 1st swift apps - HW-04.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Course - 1st swift apps - HW-04.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A03665523EE774E00945654 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A03665723EE774E00945654 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3A03665923EE774E00945654 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3A03665C23EE774E00945654 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A03666123EE775000945654 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A03666423EE775000945654 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +39,7 @@
 		3A03667A23EEEB9C00945654 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 		3A5A24AE23EEF15D00CB1961 /* RegisterNewUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterNewUserViewController.swift; sourceTree = "<group>"; };
 		3A5A24B023EEF93900CB1961 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		3A5A24B223EFD43600CB1961 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +83,11 @@
 		3A03667023EEBDA300945654 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				3A03665923EE774E00945654 /* ViewController.swift */,
 				3A03667623EECC4800945654 /* QuestionsViewController.swift */,
 				3A03666E23EEA3E900945654 /* WellcomeViewController.swift */,
 				3A5A24AE23EEF15D00CB1961 /* RegisterNewUserViewController.swift */,
 				3A03667823EED65C00945654 /* AboutMeViewController.swift */,
+				3A5A24B223EFD43600CB1961 /* MainViewController.swift */,
 				3A5A24B023EEF93900CB1961 /* UIViewControllerExtensions.swift */,
 			);
 			path = ViewControllers;
@@ -194,9 +194,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A03665A23EE774E00945654 /* ViewController.swift in Sources */,
 				3A5A24B123EEF93900CB1961 /* UIViewControllerExtensions.swift in Sources */,
 				3A5A24AF23EEF15D00CB1961 /* RegisterNewUserViewController.swift in Sources */,
+				3A5A24B323EFD43600CB1961 /* MainViewController.swift in Sources */,
 				3A03667B23EEEB9C00945654 /* Users.swift in Sources */,
 				3A03667723EECC4800945654 /* QuestionsViewController.swift in Sources */,
 				3A03667923EED65C00945654 /* AboutMeViewController.swift in Sources */,
